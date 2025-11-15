@@ -3,9 +3,7 @@ from torch.optim.optimizer import Optimizer
 from .utils import block_process
  
 class DCTAdam(Optimizer):
-    """
-    DCTAdam — модификация Adam, выполняющая обновления в DCT-домене.
-    """
+
 
     def __init__(self, params, lr=1e-3, betas=(0.9, 0.999), eps=1e-8,
                  weight_decay=0.0, alpha=0.0, block_size=4096):
