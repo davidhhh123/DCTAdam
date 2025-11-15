@@ -4,5 +4,5 @@ DCTAdam — это модификация оптимизатора Adam, вып�
 
 ## Установка
 ```bash
-pip install git+https://github.com/username/dctadam.git
+pip install git+https://github.com/davidhhh123/dctadam.git
 "# DCTAdam" 
