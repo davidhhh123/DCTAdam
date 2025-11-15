@@ -1,8 +1,8 @@
 # DCTAdam
 
-DCTAdam — это модификация оптимизатора Adam, выполняющая обновления параметров в DCT-домене.
+DCTAdam is a modification of the Adam optimizer that performs parameter updates in the DCT domain.
 
-## Установка
+## Install
 ```bash
 pip install git+https://github.com/davidhhh123/dctadam.git
 "# DCTAdam" 
