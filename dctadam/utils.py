@@ -2,10 +2,7 @@ import torch
 from scipy.fftpack import dct, idct
 
 def block_process(x, block_size, forward=True):
-    """
-    Разбивает вектор x на блоки и применяет DCT/IDCT к каждому блоку.
-    forward=True -> DCT, forward=False -> IDCT
-    """
+
     N = x.shape[0]
     pad = (block_size - (N % block_size)) % block_size
     if pad > 0:
